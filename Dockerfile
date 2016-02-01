@@ -1,4 +1,4 @@
-FROM sergeyzh/centos6-java
+FROM sergeyzh/centos6-java:jdk8
 MAINTAINER Andrey Sizov, andrey.sizov@jetbrains.com
 
 RUN /usr/sbin/useradd jetty
